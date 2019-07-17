@@ -8,9 +8,9 @@ var weekDays;
 weekDays = ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
 
  var day=console.log(weekDays.toFixed());
-switch(gender){
 
-case "male":
+
+while(gender==="male"){
 
 if(day===0){
 alert("Kwasi");
@@ -32,9 +32,11 @@ else if(day===5){
 else if(day===6){
     alert("Kwame");
 }
-break;
 
-case "female":
+}
+
+while (gender==="female") {
+    
 
  if(day===0){
     alert("Akosua");
@@ -58,10 +60,8 @@ else if(day===5){
 else if(_day===6){
     alert("Ama");
 }
-break;
-default:
-    alert("mmmmm");         
+         
 
-}
+};
 
 
