@@ -38,6 +38,25 @@ color: aqua;
     margin-left: auto;
 }
 .h1{
-    color:#F06;
+    color:#F061;
     text-align: center;
 }
+input[type=text], input[type=number] ,input[type=date],input[type=checkbox]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button{
+    background-color: rgb(238, 169, 42);
+  color: rgb(22, 5, 5);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  border-radius: 70%;
+  }
+  
