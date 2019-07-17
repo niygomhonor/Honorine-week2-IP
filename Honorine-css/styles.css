@@ -59,4 +59,19 @@ input[type=text], input[type=number] ,input[type=date],input[type=checkbox]{
   width: 20%;
   border-radius: 70%;
   }
-  
+  button .get{
+      text-align: center;
+  }
+  td,th {
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table{
+    font-size:100%;
+    border-spacing: 3px;
+}
