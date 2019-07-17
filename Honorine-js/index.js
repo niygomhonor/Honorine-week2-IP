@@ -22,28 +22,35 @@ weekDays = ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
 
  var day=console.log(weekDays.toFixed());
  
-var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-var day;
+
+
 switch(day,gender){
-case 7,male:
+case(0,"male"):
 alert("Kwasi");
+break;
 
-case 1,male:
+case (1,"male"):
 alert("Kwadwo");
-
-case 2,male:
+break;
+case 2,"male":
 alert("Kwabena");
-
-case 3,male:
+break;
+case 3,"male":
 alert("Kwaku");
-case 4,male:
+break;
+case 4,"male":
 alert("Yaw");
-
-case 5,male:
+break;
+case 5,"male":
 alert("Kofi");
-case 6,male:
+
+case 6,"male":
 alert("Kwame");
+break;
+  
+case 
+
 default:
 alert("hhhh");
 
