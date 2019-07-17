@@ -34,12 +34,13 @@
                         <label for="sex"><b>Gender</b></label>
                         <input type="checkbox" name="female" value="Female"><label for="sex">Female</label>
                         <input type="checkbox" name="male" value="Male"><label for="sex">Male</label><br>
-                        <button type="submit"><a href=".wikitable" >SEND</a></button><br>
-                        <label for="name"><b>your Akan name:</b> <input type="text" name="firstname" placeholder="Akan name" maxlength="10"></label>
+                        <button  Onclick="document.getElementById('akaname').innerHTML=Date()">
+                        SEND</button><br>
+                        <label for="name"><b>your Akan name:</b> <input id="akaname" type="text" name="firstname" placeholder="Akan name" maxlength="10"></label>
                        <br>
-                       <label for="name"><b>Day of your born-week:</b> <input type="text"  placeholder="bornday" maxlength="10"></label>
+                       <label for="name"><b>Day of your born-week:</b> <input id="dayBorn" type="text"  placeholder="bornday" maxlength="10"></label>
                        <br>
-                       <p><a href=""></a></p>
+                       <p id="akaname"></p>
                     </fieldset>
                     </form>
                     
