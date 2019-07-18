@@ -4578,7 +4578,7 @@
     border-bottom-left-radius: 0.25rem;
   }
   
-  .card-body {
+  .body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     padding: 1.25rem;
