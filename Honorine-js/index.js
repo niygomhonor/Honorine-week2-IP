@@ -1,9 +1,9 @@
 
-var cc=parseInt(prompt("enter your century"));
-var yy=parseInt(prompt("enter last two numbers of year"));
-var mm=parseInt(prompt("enter born month"));
-var dd=parseInt(prompt("enter  date"));
-var gender=prompt("Enter gender");
+var cc=document.getElementById("ccc");
+var yy=document.getElementById("yyy");
+var mm=document.getElementById("mmm");
+var dd=document.getElementById("ddd");
+var gender=document.getElementById("yourgender");
 
 var days=["Sunday","Monday","Tuesday","Wednesday"]
 /*function myday(a) {
@@ -63,45 +63,45 @@ var d=weekDays.toFixed(0);
 if(d==0 && gender== 'male'){
 alert("Kwasi");
 }else if(d==1 && gender== 'male'){
-alert("Kwadwo");
+    document.getElementById("akaname").innerHTML = "Kwadwo";
 }
 else if(d==2 && gender=='male'){
-    alert("Kwabena");
+    document.getElementById("akaname").innerHTML = "Kwabena";
 }
 else if(d==3 && gender== 'male'){
-    alert("Kwaku");
+    document.getElementById("akaname").innerHTML = "Kwaku";
 }
 else if(d== 4 && gender=='male'){
-    alert("Yaw");
+    document.getElementById("akaname").innerHTML = "Yaw";
 }
 else if(d==5 && gender=='male'){
-    alert("Kofi");
+    document.getElementById("akaname").innerHTML = "Kofi";
 }
 else if(d==6 && gender=='male'){
-    alert("Kwame");
+    document.getElementById("akaname").innerHTML = "Kwame";
 }
 
 else if(d==0 && gender=='female'){
-    alert("Akosua" );
+    document.getElementById("akaname").innerHTML = "Akosua" ;
 }
 else if(d==1 && gender=='female'){
-        alert("Adwoa");
+    document.getElementById("akaname").innerHTML = "Adwoa";
 }
 else if(d==2  && gender=='female'){
-     alert("Abenaa");
+    document.getElementById("akaname").innerHTML = "Abenaa";
 }
 else if(d==3  && gender=='female'){
-    alert("Akua");
+    document.getElementById("akaname").innerHTML = "Akua";
 }
 else if(d==4  && gender=='female'){
- alert("Yaa");
+    document.getElementById("akaname").innerHTML = "Yaa";
 }
 
 else if(d==5  && gender=='female'){
-    alert("Afua");
+    document.getElementById("akaname").innerHTML = "Afua";
 }
 else if(d==6  && gender=='female'){
-    alert("Ama");
+    document.getElementById("akaname").innerHTML = "Ama";
 }
          
 
