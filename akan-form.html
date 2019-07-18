@@ -5,46 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="Honorine-css/styles.css">
+    <script src="Honorine-js/index.js"></script>
     <title>Akan form</title>
 </head>
 <body>
-        <div id="form1">
-                <div class="akanForm">
-                        <h1>AKAN NAME FORM</h1>
-                        <form >
-                            <fieldset>
-                                <legend><b></b>Personal Birth dates info:</b></legend>
-                                <label for="names"><b>Enter your names:</b><input type="text" name="names" placeholder="Your names"></label><br>
-                        
-                    
-                       
-                    
-                        <label for="century" ><b>Born century:</b> <input id="ccc" type="number" placeholder="CC" maxlength="10"></label><br>
-                       
-                        <label for="year" ><b>Born Year:</b><input name="year" id="yyy" type="number" placeholder="YY" maxlength="10"></label><br>
-                        
-                        <label for="year" ><b>Born Month:</b><input name="month" id="mmm" type="number" placeholder="MM" maxlength="10"></label><br>
-                        
-                        <label for="year" ><b>Born Date: </b> <input name="day" id="ddd" type="number" placeholder="DD" maxlength="10"></label><br>
-                      
-                        <label for="date"><b>Enter date of birth:</b><input id="date" type="date"> </label><br>
-                      
-                    
-                        
-                        <label for="sex"><b>Gender:</b><input id="yourgender" type="text" name="female"></label>
-                        
-                       
-                        <input type="button"  value="SEND" Onclick="">
-                        <br>
-                        <label for="name"><b>your Akan name:</b> <input id="akaname" type="text" name="firstname" placeholder="Akan name" maxlength="10"></label>
-                       <br>
-                       <label for="name"><b>Day of your born-week:</b> <input name="yourday" id="dayBorn" type="text"  placeholder="bornday" maxlength="10"></label>
-                       <br>
-                       <p id="akaname"></p>
-                    </fieldset>
-                    </form>
-                    
-                        </div>
+    <div id="form1">
+        <div class="akanForm">
+            <h1>AKAN NAME FORM</h1>
+            <form >
+                <fieldset>
+                    <legend><b></b>Personal Birth dates info:</b></legend>
+                    <label for="names"><b>Enter your names:</b><input id="myname" type="text" name="names" placeholder="Your names"></label><br>
+                    <label for="century" ><b>Born century:</b> <input id="ccc" type="number" placeholder="CC" maxlength="10"></label><br>
+                    <label for="year" ><b>Born Year:</b><input name="year" id="yyy" type="number" placeholder="YY" maxlength="10"></label><br>
+                    <label for="year" ><b>Born Month:</b><input name="month" id="mmm" type="number" placeholder="MM" maxlength="10"></label><br>
+                    <label for="year" ><b>Born Date: </b> <input name="day" id="ddd" type="number" placeholder="DD" maxlength="10"></label><br>
+                    <label for="date"><b>Enter date of birth:</b><input id="date" type="date"> </label><br>
+                    <label for="sex"><b>Gender:</b><input id="yourgender" type="text" name="female"></label>
+                    <input type="button" id="but" onclick="myakhan()" value="send">
+                    <br>
+                    <label for="name"><b>your Akan name:</b> <p id="akaname"   placeholder="Akan name"></p></label><br>
+                    <label for="name"><b>Day of your born-week:</b> <p id="yourday"  placeholder="bornday" ></p></label>
+                    <br>
+                     
+                </fieldset>
+            </form>
         </div>
+    </div>
 </body>
 </html>
