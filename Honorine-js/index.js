@@ -1,4 +1,4 @@
-
+var fullName=document.getElementById("myname");
 var cc=document.getElementById("ccc");
 var yy=document.getElementById("yyy");
 var mm=document.getElementById("mmm");
@@ -6,52 +6,10 @@ var dd=document.getElementById("ddd");
 var gender=document.getElementById("yourgender");
 
 var days=["Sunday","Monday","Tuesday","Wednesday"]
-/*function myday(a) {
-    this.length=a;
-    for (let i = 0; i < a; i++) {
-        this[i]=0;
-        
-    }
-}
 
-days= new myday(7);
+function myakhan() {
 
-
- function calculate(form){
-    var dd=parseInt(form.day.value,8);
-    if (dd<0 || dd>31) {
-
-        alert("invalid");}
-        var mm=parseInt(form.month.value,8);
-        if (mm<0 || mm>12) {
-         alert("Month is invalid"); 
-        }
-        var mma=parseInt(form.month.value,8);
-
-        var yy=parseInt(form.year.value,8);
-        if (yy<1900) {
-           alert("you are not concered"); 
-        } 
-        if (mm==1) {
-           mma=13;
-           yy=yy-1; 
-        }
-        else if (mm==2) {
-            mma=14;
-            yy=yy-1;
-        } 
-            
-        var four=parseInt(((mma+1)*3)/5,8)
-        var five=parseInt(yy/4,8)
-        var six=parseInt(yy/100,8)
-var seven=parseInt(yy/400,8)
-var eight=dd+(mma*2)+four+yy+five-six+seven+2
-var nine=parseInt(eight/7,8)
-var ten=eight-(nine*7)
-form.yourday.value=days[ten];
- }
-
-*/
+document.getElementById("but").Value;
 var weekDays;
 weekDays = ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
 
@@ -61,50 +19,65 @@ var d=weekDays.toFixed(0);
 
 
 if(d==0 && gender== 'male'){
-alert("Kwasi");
+    document.getElementById("akaname").innerHTML = "Kwasi";
+    document.getElementById("yourday").innerHTML = days[0];
+
 }else if(d==1 && gender== 'male'){
     document.getElementById("akaname").innerHTML = "Kwadwo";
+    document.getElementById("yourday").innerHTML = days[1];
 }
 else if(d==2 && gender=='male'){
     document.getElementById("akaname").innerHTML = "Kwabena";
+    document.getElementById("yourday").innerHTML = days[2];
 }
 else if(d==3 && gender== 'male'){
     document.getElementById("akaname").innerHTML = "Kwaku";
+    document.getElementById("yourday").innerHTML = days[3];
 }
 else if(d== 4 && gender=='male'){
     document.getElementById("akaname").innerHTML = "Yaw";
+    document.getElementById("yourday").innerHTML = days[4];
 }
 else if(d==5 && gender=='male'){
     document.getElementById("akaname").innerHTML = "Kofi";
+    document.getElementById("yourday").innerHTML = days[5];
 }
 else if(d==6 && gender=='male'){
     document.getElementById("akaname").innerHTML = "Kwame";
+    document.getElementById("yourday").innerHTML = days[6];
 }
 
 else if(d==0 && gender=='female'){
     document.getElementById("akaname").innerHTML = "Akosua" ;
+    document.getElementById("yourday").innerHTML = days[1];
 }
 else if(d==1 && gender=='female'){
     document.getElementById("akaname").innerHTML = "Adwoa";
+    document.getElementById("yourday").innerHTML = days[1];
 }
 else if(d==2  && gender=='female'){
     document.getElementById("akaname").innerHTML = "Abenaa";
+    document.getElementById("yourday").innerHTML = days[2];
 }
 else if(d==3  && gender=='female'){
     document.getElementById("akaname").innerHTML = "Akua";
+    document.getElementById("yourday").innerHTML = days[3];
 }
 else if(d==4  && gender=='female'){
     document.getElementById("akaname").innerHTML = "Yaa";
+    document.getElementById("yourday").innerHTML = days[4];
 }
 
 else if(d==5  && gender=='female'){
     document.getElementById("akaname").innerHTML = "Afua";
+    document.getElementById("yourday").innerHTML = days[5];
 }
 else if(d==6  && gender=='female'){
     document.getElementById("akaname").innerHTML = "Ama";
+    document.getElementById("yourday").innerHTML = days[6];
 }
-         
+}       
 
-
+myakhan();
 
 
