@@ -1,15 +1,17 @@
-var fullName=document.getElementById("myname");
-var cc=document.getElementById("ccc");
-var yy=document.getElementById("yyy");
-var mm=document.getElementById("mmm");
-var dd=document.getElementById("ddd");
-var gender=document.getElementById("yourgender");
+function myakhan() {
+var fullName=document.getElementById("myname").value;
+
+var cc=document.getElementById("ccc").value;
+var yy=document.getElementById("yyy").value;
+var mm=document.getElementById("mmm").value;
+var dd=document.getElementById("ddd").value;
+var gender=document.getElementById("yourgender").value;
 
 var days=["Sunday","Monday","Tuesday","Wednesday"]
 
-function myakhan() {
 
-document.getElementById("but").Value;
+
+//document.getElementById("but").Value;
 var weekDays;
 weekDays = ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
 
@@ -78,6 +80,5 @@ else if(d==6  && gender=='female'){
 }
 }       
 
-myakhan();
 
 
