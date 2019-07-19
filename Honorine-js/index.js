@@ -13,7 +13,7 @@ var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
 //document.getElementById("but").Value;
 
 var weekDays;
-weekDays = ( ( (cc/4) +2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
+weekDays = ( ( (cc/4) -(2*cc)-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
 
 var d=weekDays.toFixed(0);
 if (d<0|| d>6) {
