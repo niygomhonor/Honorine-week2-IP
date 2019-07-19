@@ -6,21 +6,41 @@ var yy=document.getElementById("yyy").value;
 var mm=document.getElementById("mmm").value;
 var dd=document.getElementById("ddd").value;
 var gender=document.getElementById("yourgender").value;
+var weekDays;
+var monthCode=[0,1,4,4,0,2,5,0,3,6,1,4,6];
+//console.log(monthCode[mm]);
+if (cc==20) {
+    weekDays=((((parseInt(yy/4)+dd)+monthCode[mm] +6)+yy)%7); 
+}
+else if (cc==19) {
+    weekDays=((((parseInt(yy/4)+dd)+monthCode[mm])+yy)%7);
+}
+    
+   // weekDays=(dd+monthCode[mm]-(2*cc)+1+yy+((yy/4).toFixed(0))+(cc/4).toFixed(0))%7;
+
+
+
+
+
+
+
 if ((cc==''&&yy=='') ||(mm==''||dd=='')|| gender=='') {
     alert("Please insert required information ");
 }
 var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 //document.getElementById("but").Value;
 
-var weekDays;
-weekDays = ( ( (cc/4) -(2*cc)-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
+
+//weekDays = ( ( (cc/4) -(2*cc)+1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
 
 var d=weekDays.toFixed(0);
-if (d<0|| d>6) {
+if (dd<0|| dd>31) {
     alert("This day doesn't belong in days of week");
+
 }
- if (dd>31|| dd<0) {
-    alert("That date doesn't belong to the days of Month");
+ if (mm>12|| mm<1) {
+    alert("That month doesn't belong to the Months of year");
+    
 }
 
 if(d==0 && gender== 'male'){
