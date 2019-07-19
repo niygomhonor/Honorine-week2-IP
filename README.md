@@ -47,13 +47,17 @@
  
  ## Contact Us
 
-  - [+] Email:niygomhonor@gmail.com
-  - [+] Instagram:neodohonorine2001
-  - [+] Phone.Nbr:+2507309838
-  - [+] LinkedIn:NIYONKURU Honorine
-  - [+] Facebook:NIYONKURU Neodo Honorine
-  - [+] Slack:NIYONKURU Honorine
+  -  Email:niygomhonor@gmail.com
+  -  Instagram:neodohonorine2001
+  -  Phone.Nbr:+2507309838
+  -  LinkedIn:NIYONKURU Honorine
+  -  Facebook:NIYONKURU Neodo Honorine
+  -  Slack:NIYONKURU Honorine
            
+ ## click to use AKHAN-NAME Application and get your day of born.
+
+ [AKHAN-NAME Application]()
+
 
  ### Licencing Application
 
